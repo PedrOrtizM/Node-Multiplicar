@@ -27,7 +27,7 @@ switch (comando) {
   break;
 
   default:
-  console.log('Comando no reconocido');
+  console.log('Ingrese un comando válido');
 
 }
 

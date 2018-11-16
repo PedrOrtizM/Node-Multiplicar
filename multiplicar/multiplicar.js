@@ -32,6 +32,7 @@ let crearArchivo = (base, limite) => {
 
     });
 
+
 }
 
 
@@ -40,14 +41,12 @@ let listarTabla = (base,limite=10) =>{
 
   console.log(`===| TABLA DE ${ base } |===`.green);
 
-  for (var i = 1; i <= limite; i++) {
+  for (let i = 1; i <= limite; i++) {
       console.log(`      ${ base } * ${ i } = ${base*i}`);
   }
 
 
 }
-
-
 
 
 // añade al modulo global la función
